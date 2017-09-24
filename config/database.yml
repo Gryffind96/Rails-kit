@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: dfjin9tj5t7ean
+  pool: 5
+  port: 5432
+  username: bnempnfqjwuxjp
+  password: c2455ad11379ea2043d58c5c1173bae4a66d8b4ef343999166d18bbfb9909063
+  host: ec2-50-19-105-113.compute-1.amazonaws.com
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: dfjin9tj5t7ean
+  pool: 5
+  port: 5432
+  username: bnempnfqjwuxjp
+  password: c2455ad11379ea2043d58c5c1173bae4a66d8b4ef343999166d18bbfb9909063
+  host: ec2-50-19-105-113.compute-1.amazonaws.com
