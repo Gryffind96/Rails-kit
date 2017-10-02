@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dpetxtqtb
+  api_key: '251877511598954'
+  api_secret: ohzpZq5Qyl2r8T2zZ2gvR5BSlSk
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dpetxtqtb
+  api_key: '251877511598954'
+  api_secret: ohzpZq5Qyl2r8T2zZ2gvR5BSlSk
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dpetxtqtb
+  api_key: '251877511598954'
+  api_secret: ohzpZq5Qyl2r8T2zZ2gvR5BSlSk
+  enhance_image_tag: true
+  static_image_support: false

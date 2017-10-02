@@ -2,13 +2,22 @@
 <html>
   <head>
     <title>RailsKit</title>
+    <link rel="manifest" href="/manifest.json" />
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
+  <link rel="manifest" href="/manifest.json" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+window.vapidPublicKey = 'BChDsFyOTBDgeApiZ7FtbKMMZT-cRkQmTAf_G9w_e4PQOlEoVGK0ED3SOsdcaPd1hqKWvPFdegbXE6GOFZEkPVc=';
+</script>
+</head>
+  
   <body>
     <%= yield %>
+    <% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %> </div>
+    <% end %>
   </body>
 </html>
